@@ -18,7 +18,7 @@ static/
 logs.md
 API_DOCUMENTATION.md
 test_auth.py
-commissions/
+/commissions
 
 
 # VS Code
