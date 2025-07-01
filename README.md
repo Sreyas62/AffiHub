@@ -72,6 +72,18 @@ python manage.py runserver
 - `POST /api/auth/refresh/` - Refresh access token
 - `POST /api/auth/verify/` - Verify token
 
+### Users
+- `POST /api/users/` - Register a new user
+- `GET /api/users/me/` - Get current user\'s profile
+- `PUT /api/users/{id}/` - Update user profile (owner only)
+- `PATCH /api/users/{id}/` - Partially update user profile (owner only)
+- `DELETE /api/users/{id}/` - Delete user account (owner only)
+- `POST /api/users/login/` - Login and get JWT tokens
+- `POST /api/users/logout/` - Logout (blacklist refresh token)
+- `POST /api/users/change_password/` - Change user password
+- `GET /api/users/` - List all users (admin only)
+- `GET /api/users/affiliates/` - List all affiliates
+- `GET /api/users/merchants/` - List all merchants
 
 ### Tracking
 - `GET /api/tracking/links/` - List tracking links (Admin)
