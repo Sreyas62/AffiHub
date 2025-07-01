@@ -2,6 +2,7 @@
 # Affiliate Marketing Platform API
 
 A Django REST Framework-based affiliate marketing platform that allows merchants to manage products and affiliates to earn commissions through tracking links.
+**(UNDER CONSTRUCTION)**
 
 ## Features
 
@@ -10,6 +11,7 @@ A Django REST Framework-based affiliate marketing platform that allows merchants
 - **Affiliate Tracking**: Generate and manage tracking links
 - **Click Analytics**: Track clicks, conversions, and user engagement
 - **RESTful API**: Comprehensive API with JWT authentication
+- **(Code is well documented)**
 
 ## Key Features
 
