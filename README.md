@@ -36,6 +36,7 @@ A Django REST Framework-based affiliate marketing platform that allows merchants
 - PostgreSQL (recommended) or SQLite
 - Redis (for caching)
 
+
 ## Installation
 
 ```bash
@@ -96,6 +97,14 @@ SECRET_KEY=your-secret-key
 DATABASE_URL=postgresql://user:password@localhost:5432/affiliate_db
 REDIS_URL=redis://localhost:6379/0
 ```
+
+
+## To implement and Future Scope
+
+- Commision system
+- Payment Integration
+- Frontend development and Integration
+
 
 ## Contributing
 
